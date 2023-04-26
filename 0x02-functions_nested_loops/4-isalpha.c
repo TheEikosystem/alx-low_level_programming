@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * _islower - finding lower cases alphabets
+ * _isalpha - distinguishes alpha characters from others
  *
- * Description: Write a function that checks for lowercase character
+ * Description: checks for alphabets and others
  *
- * Return: 1 for lower case alphabet, 0 for the rest
+ * Return: 1 for alphabets, 0 for the rest
  *
  * @c: The character in ASCII code
  */
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c >= 97 && c <= 122)
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
