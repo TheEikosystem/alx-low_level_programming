@@ -4,15 +4,13 @@
  * Description: 'print lower case alphabets'
  * Return: 0 (success)
  */
-void print_alphabet(void)
+int main(void)
 {
-	int n = 97;
+	int i;
 
-	while (n <= 122)
+	for (i = 97; i <= 122; i++)
 	{
-		_putchar(n);
-		n++;
+		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }
