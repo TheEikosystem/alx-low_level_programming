@@ -1,1 +1,2 @@
-0x03. C - Debugging
+C - Debugging
+tasks zero to three
