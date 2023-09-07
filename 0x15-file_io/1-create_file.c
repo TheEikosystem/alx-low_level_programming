@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file - Creating a file.
+ * create_file - func:Creating a file.
  * @filename: A pointer to the name of the file created.
  * @text_content: A pointer to the string writing the file.
  *
